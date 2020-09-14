@@ -1,0 +1,38 @@
+body {
+    background-color: rgb(2, 2, 49);
+}
+.bg-cover {
+    background-image: url("../images/log-bg.jpg");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.center-me {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+form {
+    margin: 500px;
+}
+
+.form-signin{
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(228, 22, 22)
+    
+    
+}
+
+input {
+    margin-bottom: 10px;
+}
+
+img {
+    height: 90px;
+    width: 90px;
+}
