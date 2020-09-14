@@ -1,12 +1,11 @@
 body {
-    background-color: rgb(2, 2, 49);
-}
-.bg-cover {
     background-image: url("../images/log-bg.jpg");
     height: 100vh;
     background-position: center;
     background-size: cover;
-    
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-color: rgb(2, 2, 49);
 }
 
 .center-me {
