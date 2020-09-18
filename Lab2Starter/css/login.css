@@ -1,11 +1,10 @@
-body {
-    background-image: url("../images/log-bg.jpg");
+.bg-cover {
+    background-image: url(../images/log-bg.jpg);
     height: 100vh;
     background-position: center;
     background-size: cover;
     background-attachment: scroll;
     background-repeat: no-repeat;
-    background-color: rgb(2, 2, 49);
 }
 
 .center-me {
@@ -15,16 +14,17 @@ body {
 }
 
 form {
-    margin: 500px;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-bottom: 400px;
+    margin-top: 100px;
 }
 
-.form-signin{
+.form-signin {
     padding: 20px;
     text-align: center;
     justify-content: center;
-    background-color: rgb(228, 22, 22)
-    
-    
+    background-color: rgb(228, 22, 22);
 }
 
 input {
@@ -32,6 +32,10 @@ input {
 }
 
 img {
-    height: 90px;
-    width: 90px;
+    height: 490px;
+    width: 550px;
+}
+
+body {
+    background-color: rgb(2, 2, 49);
 }
