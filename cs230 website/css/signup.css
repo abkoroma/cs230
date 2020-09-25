@@ -1,0 +1,36 @@
+.bg-cover {
+    background-image: url("../images/time-logbg.jpg");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+}
+
+.container {
+    width: 50%;
+}
+
+.center-me {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.signup-form {
+    border-radius: 50px;
+    background-color: #d5d5d5;
+    padding: 20px;
+    text-align: center;
+
+    /*padding: 35px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2px;
+    height: 350px;*/
+}
+
+input {
+    margin-bottom: 10px;
+}
