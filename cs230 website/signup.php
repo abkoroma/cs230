@@ -11,7 +11,7 @@ require "includes/header.php"
                         <h2>Register</h2>
                         <p class="hint-text">Create your account!</p>
                         <div class="form-group">
-                            <div class="row">
+                            <div class="row"> 
                                 <div class="col">
                                     <input type="text" class="form-control" name="fname" placeholder="first name" required="required">
                                 </div>

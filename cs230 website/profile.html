@@ -1,0 +1,62 @@
+<style>
+    body{
+      background-color: lightgrey;
+      margin: 2em;
+    }
+  
+    .card {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      max-width: 300px;
+      margin: auto;
+      margin-top: 5em;
+      text-align: center;
+    }
+  
+    .title {
+      color: grey;
+      font-size: 18px;
+    }
+  
+    #profileimg{
+      padding: 1em;
+    }
+
+    .center-me {
+        display: flex;
+        justify-content: center;
+        padding: 40px;
+        text-align: "center";
+    }
+    #prof-display {
+        display: block;
+        
+        width: 150px;
+        margin: 10px auto;
+        border-radius: 50%;
+    }
+    
+    #uname-style {
+        font-size: 20px;
+        font-family: "Lucida Console", Courier, monospace;
+        font-weight: bold;
+    }
+  </style>
+  
+  
+  <div class="h-100 center-me text-center">
+    <div class="my-auto">
+        <form action="includes/upload-helper.php" method="POST" enctype="multipart/form-data">
+            <div class="form-group">
+                <img src="#" onclick="triggered();" id="prof-display">
+                <label for="prof-image" id="uname-style">Dummy Text</label>
+                <input type="file" name="prof-image" id="prof-image" unchange="preview(this)" class="form-control" style="display: none;">
+            </div>
+            <div class="form-group">
+                <textarea name="bio" id="bio" cols="30" rows="10" placeholder="bio..." style="text-align: center;"></textarea>
+            </div>
+            <div class="form-group">
+                <button type="submit" name="prof-submit" class="btn btn-outline-success btn-lg btn-block">upload</button>
+            </div>
+        </form>
+    </div>
+  </div>
